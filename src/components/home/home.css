@@ -1,0 +1,86 @@
+.home{
+    height: 750px;
+}
+
+.input-box {
+    position: absolute;
+    top: 8.5%; /* Adjust this value as needed */
+    text-align: center;
+}
+
+input{
+    border-radius: 34px;
+    border: 1px solid #EB6D27;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 620px;
+    height: 50px;
+    flex-shrink: 0;
+}
+input::placeholder{
+    color: rgba(117, 116, 116, 0.51);
+}
+input:focus{
+    border: 1px solid #EB6D27;
+}
+
+.icon {
+    padding-left: 30px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    background-color: #FFF;
+    position: absolute;
+    right: 50px;
+  }
+
+.input-box input{
+    position: relative;
+    top: 0%;
+    left: 45%;
+}
+
+.inner-img{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: -80%;
+}
+
+.text{
+    position: relative;
+    bottom: -20%;
+}
+
+.head{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;
+    color: transparent;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.home-button{
+    border-radius: 10px;
+    background: #EB6D27;
+    border: none;
+    padding: 8px 20px 14px 20px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+button svg{
+    height: 1.5rem;
+    position: relative;
+    top: 5px;
+}
+
+.i-img{
+    border: 3px solid #EB6D27;
+    padding: 8px 8px 3px 8px;
+}
+
+
